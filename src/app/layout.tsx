@@ -1,5 +1,4 @@
 import './_styles/globals.css'
-import 'react-tabulator/lib/styles.css'
 import type { Metadata } from 'next'
 export const metadata: Metadata = {
 	title: 'Test',

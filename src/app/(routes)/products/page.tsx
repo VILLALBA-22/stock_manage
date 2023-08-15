@@ -1,9 +1,8 @@
 'use client'
-import 'react-tabulator/lib/styles.css'
-import { useEffect, useState } from 'react'
-import { styled } from 'styled-components'
 import 'ag-grid-community/styles//ag-grid.css'
 import 'ag-grid-community/styles//ag-theme-alpine.css'
+import { useEffect, useState } from 'react'
+import { styled } from 'styled-components'
 import { AgGridReact } from 'ag-grid-react'
 import { screenType } from '@/app/_components/Button/types'
 import {
