@@ -57,6 +57,13 @@ export default function Login() {
 	}
 
 	useEffect(() => {
+		const accessToken = Cookies.get('accessToken')
+		if (accessToken) {
+			router.replace('/profile')
+		}
+	}, [])
+
+	useEffect(() => {
 		return () => {
 			setIsLoading(false)
 			resetForm()
@@ -188,7 +195,6 @@ Login.BodyText = styled.div`
 		font-weight: 700;
 		line-height: normal;
 		letter-spacing: 0.02rem;
-		text-transform: capitalize;
 	}
 	.body-text_description {
 		color: #667085;
