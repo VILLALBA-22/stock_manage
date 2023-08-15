@@ -12,11 +12,36 @@
     "@types/node": "20.4.10",
     "@types/react": "18.2.20",
     "@types/react-dom": "18.2.7",
+    "ag-grid-community": "^30.0.6",
+    "ag-grid-react": "^30.0.6",
+    "axios": "^1.4.0",
+    "date-fns": "^2.30.0",
     "eslint": "8.47.0",
     "eslint-config-next": "13.4.13",
+    "formik": "^2.4.3",
+    "js-cookie": "^3.0.5",
     "next": "13.4.13",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "5.1.6"
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^4.10.1",
+    "react-tabulator": "^0.18.1",
+    "react-text-mask": "^5.5.0",
+    "react-transition-group": "^4.4.5",
+    "react-useportal": "^1.0.18",
+    "recoil": "^0.7.7",
+    "recoil-persist": "^5.1.0",
+    "styled-components": "^6.0.7",
+    "text-mask-addons": "^3.8.0",
+    "typescript": "5.1.6",
+    "yup": "^1.2.0"
+  },
+  "devDependencies": {
+    "@types/js-cookie": "^3.0.3",
+    "@types/react-text-mask": "^5.4.11",
+    "@types/react-transition-group": "^4.4.6",
+    "autoprefixer": "^10.4.14",
+    "babel-plugin-styled-components": "^2.1.4",
+    "postcss": "^8.4.27"
   }
 }
