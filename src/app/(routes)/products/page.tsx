@@ -1,4 +1,5 @@
 'use client'
+import 'react-tabulator/lib/styles.css'
 import { useEffect, useState } from 'react'
 import { styled } from 'styled-components'
 import 'ag-grid-community/styles//ag-grid.css'
