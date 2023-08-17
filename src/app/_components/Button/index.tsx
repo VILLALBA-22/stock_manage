@@ -67,7 +67,4 @@ Button.Button = styled.button<{
 			opacity: 0.8;
 		}
 	}
-
-	&:active {
-	}
 `
